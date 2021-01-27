@@ -1,0 +1,9 @@
+---
+extends: substitution
+message: Use '%s' instead of '%s'.
+level: error
+ignorecase: true
+swap:
+  m3db: M3DB
+  m3DB: M3DB
+  topology: placement
