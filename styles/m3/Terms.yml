@@ -3,7 +3,11 @@ extends: substitution
 message: Use '%s' instead of '%s'.
 level: error
 ignorecase: true
+scope: paragraph
 swap:
   m3db: M3DB
   m3DB: M3DB
+  m3query: M3 Query
   topology: placement
+  m3aggregator: M3 Aggregator
+  timeseries: time series
